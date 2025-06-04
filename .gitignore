@@ -1,8 +1,0 @@
-build/
-*.o
-*.a
-*.so
-*.out
-*.user
-CMakeCache.txt
-CMakeFiles/
