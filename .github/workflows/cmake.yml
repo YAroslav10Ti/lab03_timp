@@ -13,7 +13,8 @@ jobs:
       
     - name: Configure and Build
       run: |
-        mkdir build
+        # Создаем директорию сборки
+        mkdir -p build
         cd build
         cmake ..
         make
